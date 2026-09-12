@@ -2,6 +2,8 @@ using System;
 
 class Program
 {
+    // A journal program that generate randoms prompts and allows entry based on prompt, saves 
+    // and retrieve information from json file
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Journal Project.");
@@ -10,6 +12,7 @@ class Program
         PromptGenerator promptGenerator = new PromptGenerator();
 
         bool running = true;
+        string json = ".json";
 
         while (running)
         {
@@ -60,16 +63,17 @@ class Program
                 Console.Write("Enter the filename: ");
                 string filename = Console.ReadLine();
 
-                theJournal.LoadFromFile(filename);
+                theJournal.LoadFromFile(filename + json);
 
                 Console.WriteLine("Journal loaded successfully!");
+                theJournal.DisplayAll();
             }
             else if (choice == "4")
             {
                 Console.Write("Enter the filename: ");
                 string filename = Console.ReadLine();
 
-                theJournal.SaveToFile(filename);
+                theJournal.SaveToFile(filename + json);
                 Console.WriteLine("Journal saved successfully!");
             }
             else if (choice == "5")

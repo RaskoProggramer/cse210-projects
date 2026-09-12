@@ -1,4 +1,5 @@
 using System.IO;
+using System.Text.Json;
 class Journal
 {
     public List<Entry> _entries = new List<Entry>();
@@ -19,32 +20,17 @@ class Journal
 
     public void SaveToFile(string file)
     {
-        using (StreamWriter outputFile = new StreamWriter(file))
-        {
-            foreach (Entry entry in _entries)
-            {
-                outputFile.WriteLine($"{entry._date}~{entry._promptText}~{entry._entryText}");
-            }
-        }
+        string jsonString = JsonSerializer.Serialize(_entries);
+
+        File.WriteAllText(file, jsonString);
     }
 
     public void LoadFromFile(string file)
     {
-        _entries.Clear();
-        string[] entries = File.ReadAllLines(file);
+        string jsonString = File.ReadAllText(file);
 
-        foreach (string entry in entries)
-        {
-            string[] parts = entry.Split("~");
-
-            Entry newEntry = new Entry();
-
-            newEntry._date = parts[0];
-            newEntry._promptText = parts[1];
-            newEntry._entryText = parts[2];
-
-            _entries.Add(newEntry);
-
-        }
+        List<Entry> loadedEntries = JsonSerializer.Deserialize<List<Entry>>(jsonString);
+        _entries = loadedEntries;
     }
+    
 }
