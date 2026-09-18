@@ -1,0 +1,144 @@
+[
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": 16,
+    "text": "For God so loved the world that he gave his one and only Son that whoever believes in him shall not perish but have eternal life."
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5,
+    "endVerse": 6,
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding in all your ways submit to him and he will make your paths straight."
+  },
+  {
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 13,
+    "text": "I can do all this through him who gives me strength."
+  },
+  {
+    "book": "Jeremiah",
+    "chapter": 29,
+    "verse": 11,
+    "text": "For I know the plans I have for you declares the Lord plans to prosper you and not to harm you plans to give you hope and a future."
+  },
+  {
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1,
+    "text": "The Lord is my shepherd I lack nothing."
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 41,
+    "verse": 10,
+    "text": "So do not fear for I am with you do not be dismayed for I am your God I will strengthen you and help you I will uphold you with my righteous right hand."
+  },
+   {
+    "book": "Psalm",
+    "chapter": 23,
+    "verse": 1,
+    "endVerse": 3,
+    "text": "The Lord is my shepherd I lack nothing He makes me lie down in green pastures he leads me beside quiet waters he refreshes my soul"
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5,
+    "endVerse": 6,
+    "text": "Trust in the Lord with all your heart and lean not on your own understanding in all your ways submit to him and he will make your paths straight"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 5,
+    "verse": 3,
+    "endVerse": 5,
+    "text": "Blessed are the poor in spirit for theirs is the kingdom of heaven Blessed are those who mourn for they will be comforted Blessed are the meek for they will inherit the earth"
+  },
+  {
+    "book": "Matthew",
+    "chapter": 6,
+    "verse": 9,
+    "endVerse": 13,
+    "text": "This then is how you should pray Our Father in heaven hallowed be your name your kingdom come your will be done on earth as it is in heaven Give us today our daily bread And forgive us our debts as we also have forgiven our debtors And lead us not into temptation but deliver us from the evil one"
+  },
+  {
+    "book": "Romans",
+    "chapter": 8,
+    "verse": 38,
+    "endVerse": 39,
+    "text": "For I am convinced that neither death nor life neither angels nor demons neither the present nor the future nor any powers neither height nor depth nor anything else in all creation will be able to separate us from the love of God that is in Christ Jesus our Lord"
+  },
+  {
+    "book": "Psalm",
+    "chapter": 121,
+    "verse": 1,
+    "endVerse": 2,
+    "text": "I lift up my eyes to the mountains where does my help come from My help comes from the Lord the Maker of heaven and earth"
+  },
+  {
+    "book": "Isaiah",
+    "chapter": 40,
+    "verse": 29,
+    "endVerse": 31,
+    "text": "He gives strength to the weary and increases the power of the weak Even youths grow tired and weary and young men stumble and fall but those who hope in the Lord will renew their strength They will soar on wings like eagles they will run and not grow weary they will walk and not be faint"
+  },
+  {
+    "book": "Philippians",
+    "chapter": 4,
+    "verse": 6,
+    "endVerse": 7,
+    "text": "Do not be anxious about anything but in every situation by prayer and petition with thanksgiving present your requests to God And the peace of God which transcends all understanding will guard your hearts and your minds in Christ Jesus"
+  },
+  {
+    "book": "Ephesians",
+    "chapter": 6,
+    "verse": 10,
+    "endVerse": 11,
+    "text": "Finally be strong in the Lord and in his mighty power Put on the full armor of God so that you can take your stand against the devils schemes"
+  },
+  {
+    "book": "Psalm",
+    "chapter": 34,
+    "verse": 17,
+    "endVerse": 18,
+    "text": "The righteous cry out and the Lord hears them he delivers them from all their troubles The Lord is close to the brokenhearted and saves those who are crushed in spirit"
+  },
+  {
+    "book": "James",
+    "chapter": 1,
+    "verse": 2,
+    "endVerse": 4,
+    "text": "Consider it pure joy my brothers and sisters whenever you face trials of many kinds because you know that the testing of your faith produces perseverance Let perseverance finish its work so that you may be mature and complete not lacking anything"
+  },
+  {
+    "book": "2 Corinthians",
+    "chapter": 4,
+    "verse": 16,
+    "endVerse": 18,
+    "text": "Therefore we do not lose heart Though outwardly we are wasting away yet inwardly we are being renewed day by day For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all So we fix our eyes not on what is seen but on what is unseen since what is seen is temporary but what is unseen is eternal"
+  },
+  {
+    "book": "Colossians",
+    "chapter": 3,
+    "verse": 12,
+    "endVerse": 14,
+    "text": "Therefore as Gods chosen people holy and dearly loved clothe yourselves with compassion kindness humility gentleness and patience Bear with each other and forgive one another if any of you has a grievance against someone Forgive as the Lord forgave you And over all these virtues put on love which binds them all together in perfect unity"
+  },
+  {
+    "book": "1 Corinthians",
+    "chapter": 13,
+    "verse": 4,
+    "endVerse": 7,
+    "text": "Love is patient love is kind It does not envy it does not boast it is not proud It does not dishonor others it is not self seeking it is not easily angered it keeps no record of wrongs Love does not delight in evil but rejoices with the truth It always protects always trusts always hopes always perseveres"
+  },
+  {
+    "book": "Psalm",
+    "chapter": 46,
+    "verse": 1,
+    "endVerse": 3,
+    "text": "God is our refuge and strength an ever present help in trouble Therefore we will not fear though the earth give way and the mountains fall into the heart of the sea though its waters roar and foam and the mountains quake with their surging"
+  }
+]
