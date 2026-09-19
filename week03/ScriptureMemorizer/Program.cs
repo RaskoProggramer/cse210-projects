@@ -18,12 +18,10 @@ class Program
         Dictionary<string, JsonElement> selected =
             scriptures[random.Next(scriptures.Count)];
 
-       // Get the reference information
         string book = selected["book"].GetString();
         int chapter = selected["chapter"].GetInt32();
         int verse = selected["verse"].GetInt32();
 
-        // Create the Reference
         Reference reference;
 
         if (selected.ContainsKey("endVerse"))
@@ -49,14 +47,11 @@ class Program
         // Get the scripture text
         string text = selected["text"].GetString();
 
-        // Create the Scripture
-        // Scripture will turn the text into Word objects
         Scripture scripture = new Scripture(
             reference,
             text
         );
 
-        // Start the memorization
         while (!scripture.IsCompletelyHidden())
         {
             Console.Clear();
