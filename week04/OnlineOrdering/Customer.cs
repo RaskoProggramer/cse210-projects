@@ -3,24 +3,29 @@ using System.Net.Sockets;
 class Customer
 {
     private string _name;
-    private List<Address>  _address = new List<Address>();
+    private Address  _address;
 
-    public Customer(string name, List<Address> address)
+    public Customer(string name, Address address)
     {
         _name = name;
         _address = address;
     }
 
+    public string GetName()
+    {
+        return _name;
+    }
+
+    public void DisplayAddress()
+    {
+        _address.DisplayAddress();
+    }
       public bool IsInUSA()
     {
-        foreach (Address address in _address)
+        if (_address.IsInUSA())
         {
-            if (address.IsInUSA())
-            {
-                return true;
-            }
+            return true;
         }
-
         return false;
     }
 }
