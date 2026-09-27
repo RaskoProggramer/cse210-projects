@@ -19,11 +19,12 @@ class Address
         {
             return true;
         }
+
         return false;
     }
 
     public void DisplayAddress()
     {
-        Console.WriteLine("{_streetAddress}\n(_city)\n{_state}\n{_country}");
+        Console.WriteLine($"{_streetAddress}\n{_city}\n{_state}\n{_country}");
     }
 }

@@ -11,8 +11,16 @@ class Customer
         _address = address;
     }
 
-    public bool IsInUSA(Address address)
+      public bool IsInUSA()
     {
-        return address.IsInUSA();
+        foreach (Address address in _address)
+        {
+            if (address.IsInUSA())
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

@@ -1,10 +1,9 @@
-            if (address.IsInUSA(address.GetAddress()))
 class Order
 {
-    private List<Customer> _customer = new List<Customer>();
+    private Customer _customer;
     private List<Product> _products = new List<Product>();
 
-    public float GetTotalCost()
+    public float Total()
 {
     float total = 0;
 
@@ -13,10 +12,27 @@ class Order
         total += product.Total();
     }
 
-    foreach (Customer address in _customer)
-        {
-            if (_customer.IsInUSA())
-        }
+    if (_customer.IsInUSA())
+    {
+        total += 5;
+    }
+    else
+    {
+        total += 35;
+    }
+
     return total;
+    }
+
+    public void Packaging()
+    {
+        Console.WriteLine($"Name : {_customer._name}\n");
+
+        int item = 0;
+        foreach (Product products in _products)
+        {
+            item += 1;
+            Console.WriteLine($"{item}: {product.GetName()} {Product.GetProductId()} {product.GetQuantity()} {product}")
+        }
     }
 }
