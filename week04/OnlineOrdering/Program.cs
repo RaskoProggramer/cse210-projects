@@ -5,10 +5,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // =========================
-        // ORDER 1
-        // =========================
-
         Address address1 = new Address(
             "123 Main Street",
             "New York",
@@ -48,11 +44,6 @@ class Program
         order1.AddProduct(product2);
         order1.AddProduct(product3);
 
-
-        // =========================
-        // ORDER 2
-        // =========================
-
         Address address2 = new Address(
             "45 Nelson Mandela Road",
             "Johannesburg",
@@ -84,20 +75,43 @@ class Program
         order2.AddProduct(product4);
         order2.AddProduct(product5);
 
+        Address address3 = new Address(
+            "123 Main Street",
+            "New York",
+            "New York",
+            "USA"
+        );
 
-        // =========================
-        // LIST OF ORDERS
-        // =========================
+        Customer customer3 = new Customer(
+            "John Smith",
+            address1
+        );
+
+        Product product6 = new Product(
+            "Hard Driver",
+            "P001",
+            500,
+            1
+        );
+
+        Product product7 = new Product(
+            "Mother Board",
+            "P003",
+            100,
+            1
+        );
+
+        Order order3 = new Order(customer1, new List<Product>());
+
+        order3.AddProduct(product6);
+        order3.AddProduct(product7);
+        
 
         List<Order> orders = new List<Order>();
 
         orders.Add(order1);
         orders.Add(order2);
-
-
-        // =========================
-        // DISPLAY ALL ORDERS
-        // =========================
+        orders.Add(order3);
 
         int orderNumber = 1;
 
