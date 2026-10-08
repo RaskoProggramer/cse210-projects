@@ -2,6 +2,7 @@ using System;
 
 class Program
 {
+    //Activity program for mindfullness, I have added a count down and a spinner for the activity
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Mindfulness Project.");
